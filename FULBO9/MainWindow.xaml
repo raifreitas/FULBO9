@@ -10,7 +10,6 @@
         <Menu>
             <TextBlock>wasaaaa</TextBlock>
             <TextBox>Y justin?</TextBox>
-            <TextBlock>holi</TextBlock>
         </Menu>
     </Grid>
 </Window>
