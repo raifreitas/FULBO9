@@ -10,6 +10,7 @@
         <Menu>
             <TextBlock>wasaaaa</TextBlock>
             <TextBox>Y justin?</TextBox>
+            <TextBox>adios</TextBox>
         </Menu>
     </Grid>
 </Window>
