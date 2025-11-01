@@ -105,13 +105,13 @@
             <MenuItem Header="Resultados"></MenuItem>
             <MenuItem Header="Calendario"></MenuItem>
             <MenuItem Header="Grupos"></MenuItem>
-            <MenuItem Header="Grupos"></MenuItem>
+            <MenuItem Header="Jugadores"></MenuItem>
+            <MenuItem Header="Equipos"></MenuItem>
+            <MenuItem Header="Configuracion"></MenuItem>
         </Menu>
     </Grid>
 </Window>
 
-    
-    
     
     
     
