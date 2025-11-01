@@ -9,6 +9,7 @@
     <Grid>
         <Menu>
             <TextBlock>wasaaaa</TextBlock>
+            <TextBox>Y justin?</TextBox>
         </Menu>
     </Grid>
 </Window>
