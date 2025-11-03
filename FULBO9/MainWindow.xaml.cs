@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FULBO9.Ventanas;
 
 
 namespace FULBO9
@@ -29,7 +30,12 @@ namespace FULBO9
 
         private void AbrirConfiguracion(object sender, RoutedEventArgs e)
         {
-            FramePrincipal.Navigate(new Ventanas.Configuracion());
+            FramePrincipal.Navigate(new Configuracion());
+        }
+
+        private void AbrirJugadores(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Jugadores());
         }
     }
 }

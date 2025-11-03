@@ -105,7 +105,7 @@
             <MenuItem Header="Resultados"></MenuItem>
             <MenuItem Header="Calendario"></MenuItem>
             <MenuItem Header="Grupos"></MenuItem>
-            <MenuItem Header="Jugadores"></MenuItem>
+            <MenuItem Header="Jugadores" Click="AbrirJugadores"></MenuItem>
             <MenuItem Header="Equipos" Click="AbrirEquipos"></MenuItem>
             <MenuItem Header="Configuracion" Click="AbrirConfiguracion"></MenuItem>
         </Menu>

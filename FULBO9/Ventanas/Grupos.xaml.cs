@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FULBO9.Ventanas
 {
     /// <summary>
-    /// Lógica de interacción para Equipos.xaml
+    /// Lógica de interacción para Grupos.xaml
     /// </summary>
-    public partial class Equipos : Page
+    public partial class Grupos : Window
     {
-        public Equipos()
+        public Grupos()
         {
             InitializeComponent();
         }
