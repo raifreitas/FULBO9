@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FULBO9.Ventanas
+namespace FULBO9.Paginas
 {
     /// <summary>
-    /// Lógica de interacción para Equipos.xaml
+    /// Lógica de interacción para Calendario.xaml
     /// </summary>
-    public partial class Equipos : Page
+    public partial class Calendario : Page
     {
-        public Equipos()
+        public Calendario()
         {
             InitializeComponent();
         }

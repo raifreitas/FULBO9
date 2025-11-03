@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FULBO9.Ventanas
+namespace FULBO9.Paginas
 {
     /// <summary>
-    /// Lógica de interacción para Configuracion.xaml
+    /// Lógica de interacción para Jugadores.xaml
     /// </summary>
-    public partial class Configuracion : Page
+    public partial class Jugadores : Page
     {
-        public Configuracion()
+        public Jugadores()
         {
             InitializeComponent();
         }
