@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="Equipos" Height="450" Width="800">
     <Grid>
-        
+        <DataGrid x:Name="dtgEquipos">
+            <!--Definición Manual de Columnas-->
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Width="*" Visibility="Collapsed" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Nombre Equipo" Width="*" Binding="{Binding NombreEquipo}"/>
+                <DataGridTextColumn Header="Delegado" Width="*"/>
+                <DataGridTextColumn Header="Móvil Delegado" Width="*"/>
+                <DataGridTextColumn Header="Forma de Pago" Width="*"/>
+                <DataGridTextColumn Header="Monto" Width="*"/>
+                <DataGridTextColumn Header="Fecha Pago" Width="*"/>
+                <DataGridTextColumn Header="Estado" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
