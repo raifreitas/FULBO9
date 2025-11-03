@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace FULBO9
 {
     /// <summary>
@@ -19,6 +20,16 @@ namespace FULBO9
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AbrirEquipos(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Equipos());
+        }
+
+        private void AbrirConfiguracion(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Ventanas.Configuracion());
         }
     }
 }

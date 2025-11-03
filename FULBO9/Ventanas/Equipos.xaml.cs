@@ -17,7 +17,7 @@ namespace FULBO9
     /// <summary>
     /// Lógica de interacción para Equipos.xaml
     /// </summary>
-    public partial class Equipos : Window
+    public partial class Equipos : Page
     {
         public Equipos()
         {

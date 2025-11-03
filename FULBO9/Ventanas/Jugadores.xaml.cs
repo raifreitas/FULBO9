@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace FULBO9.Ventanas
 {
     /// <summary>
-    /// Lógica de interacción para Configuracion.xaml
+    /// Lógica de interacción para Jugadores.xaml
     /// </summary>
-    public partial class Configuracion : Page
+    public partial class Jugadores : Window
     {
-        public Configuracion()
+        public Jugadores()
         {
             InitializeComponent();
         }

@@ -106,9 +106,13 @@
             <MenuItem Header="Calendario"></MenuItem>
             <MenuItem Header="Grupos"></MenuItem>
             <MenuItem Header="Jugadores"></MenuItem>
-            <MenuItem Header="Equipos"></MenuItem>
-            <MenuItem Header="Configuracion"></MenuItem>
+            <MenuItem Header="Equipos" Click="AbrirEquipos"></MenuItem>
+            <MenuItem Header="Configuracion" Click="AbrirConfiguracion"></MenuItem>
         </Menu>
+        <!-- Frame: aquí se cargan las páginas -->
+        <Frame x:Name="FramePrincipal"
+               Grid.Row="1"
+               NavigationUIVisibility="Hidden" />
     </Grid>
 </Window>
 
@@ -198,4 +202,3 @@
     
     
     
-<!--De aqui (201)para abajo es de jhastin-->
