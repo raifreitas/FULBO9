@@ -10,6 +10,7 @@
     <SolidColorBrush x:Key="SeptimoColor" Color="#FF488EFF"/>
     <SolidColorBrush x:Key="OctavoColor" Color="#FF7748FF"/>
     <SolidColorBrush x:Key="NovenoColor" Color="#FFED48FF"/>
+    <SolidColorBrush x:Key="DecimoColor" Color="#FFF5F5F5"/>
 
     <Style TargetType="MenuItem">
         <Setter Property="BorderBrush" Value="Black"/>
