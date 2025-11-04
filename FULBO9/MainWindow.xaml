@@ -6,8 +6,21 @@
         xmlns:local="clr-namespace:FULBO9"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+      
     <Grid>
         <Menu>
+            <MenuItem Header="Tabla Posiciones" Click="AbrirTablaPosiciones"></MenuItem>
+            <MenuItem Header="Goles" Click="AbrirGoles"></MenuItem>
+            <MenuItem Header="Resultados" Click="AbrirResultados"></MenuItem>
+            <MenuItem Header="Calendario" Click="AbrirCalendario"></MenuItem>
+            <MenuItem Header="Grupos" Click="AbrirGrupos"></MenuItem>
+            <MenuItem Header="Jugadores" Click="AbrirJugadores"></MenuItem>
+            <MenuItem Header="Equipos" Click="AbrirEquipos"></MenuItem>
+            <MenuItem Header="Configuracion" Click="AbrirConfiguracion"></MenuItem>
         </Menu>
+        <!-- Frame: aquí se cargan las páginas -->
+        <Frame x:Name="FramePrincipal"
+               Grid.Row="1"
+               NavigationUIVisibility="Hidden" />
     </Grid>
 </Window>

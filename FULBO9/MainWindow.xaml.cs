@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FULBO9.Paginas;
+
 
 namespace FULBO9
 {
@@ -19,6 +21,46 @@ namespace FULBO9
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AbrirEquipos(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Equipos());
+        }
+
+        private void AbrirConfiguracion(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Configuracion());
+        }
+
+        private void AbrirJugadores(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Jugadores());
+        }
+
+        private void AbrirTablaPosiciones(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new TablaDePosiciones());
+        }
+
+        private void AbrirGoles(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Goles());
+        }
+
+        private void AbrirResultados(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Resultados());
+        }
+
+        private void AbrirCalendario(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Calendario());
+        }
+
+        private void AbrirGrupos(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate (new Grupos());
         }
     }
 }
