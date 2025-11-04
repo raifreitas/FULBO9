@@ -6,18 +6,6 @@
         xmlns:local="clr-namespace:FULBO9"
         mc:Ignorable="d"
         Title="Gestor De Campeonatos FISI" Height="450" Width="800">
-    <Window.Resources>
-        <!--Paleta de Colores-->
-        <SolidColorBrush x:Key="PrimaryBrush" Color="#FF1976D2"/>
-        <SolidColorBrush x:Key="PrimaryLightBrush" Color="#FF42A5F5"/>
-        <SolidColorBrush x:Key="PrimaryDarkBrush" Color="#FF1565C0"/>
-        <SolidColorBrush x:Key="AccentBrush" Color="#FFD32F2F"/>
-        <SolidColorBrush x:Key="LightTextBrush" Color="White"/>
-        <SolidColorBrush x:Key="DarkTextBrush" Color="#212121"/>
-        <SolidColorBrush x:Key="BorderBrush" Color="#FFCCCCCC"/>
-        <SolidColorBrush x:Key="BackgroundLightBrush" Color="White"/>
-        <SolidColorBrush x:Key="BackgroundMediumBrush" Color="#FFF5F5F5"/>
-    </Window.Resources>
 
     <Grid>
         <Menu>
