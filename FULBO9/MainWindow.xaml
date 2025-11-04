@@ -100,11 +100,11 @@
     
     <Grid>
         <Menu>
-            <MenuItem Header="Tabla Posiciones"></MenuItem>
-            <MenuItem Header="Goles"></MenuItem>
-            <MenuItem Header="Resultados"></MenuItem>
-            <MenuItem Header="Calendario"></MenuItem>
-            <MenuItem Header="Grupos"></MenuItem>
+            <MenuItem Header="Tabla Posiciones" Click="AbrirTablaPosiciones"></MenuItem>
+            <MenuItem Header="Goles" Click="AbrirGoles"></MenuItem>
+            <MenuItem Header="Resultados" Click="AbrirResultados"></MenuItem>
+            <MenuItem Header="Calendario" Click="AbrirCalendario"></MenuItem>
+            <MenuItem Header="Grupos" Click="AbrirGrupos"></MenuItem>
             <MenuItem Header="Jugadores" Click="AbrirJugadores"></MenuItem>
             <MenuItem Header="Equipos" Click="AbrirEquipos"></MenuItem>
             <MenuItem Header="Configuracion" Click="AbrirConfiguracion"></MenuItem>

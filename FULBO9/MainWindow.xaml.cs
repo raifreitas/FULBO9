@@ -37,5 +37,30 @@ namespace FULBO9
         {
             FramePrincipal.Navigate(new Jugadores());
         }
+
+        private void AbrirTablaPosiciones(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new TablaDePosiciones());
+        }
+
+        private void AbrirGoles(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Goles());
+        }
+
+        private void AbrirResultados(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Resultados());
+        }
+
+        private void AbrirCalendario(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Calendario());
+        }
+
+        private void AbrirGrupos(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate (new Grupos());
+        }
     }
 }
