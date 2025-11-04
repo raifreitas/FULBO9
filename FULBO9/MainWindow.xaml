@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FULBO9"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Gestor De Campeonatos FISI" Height="450" Width="800">
     <Window.Resources>
         <!--Paleta de Colores-->
         <SolidColorBrush x:Key="PrimaryBrush" Color="#FF1976D2"/>
