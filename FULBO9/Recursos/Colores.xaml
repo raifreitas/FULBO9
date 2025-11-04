@@ -1,54 +1,16 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 <!--Paleta de colores-->
-    <SolidColorBrush x:Key="PrimerColor" Color="#FFFF4848"/>
-    <SolidColorBrush x:Key="SegundoColor" Color="#FFFF9348"/>
-    <SolidColorBrush x:Key="TercerColor" Color="#FFFFE748"/>
-    <SolidColorBrush x:Key="CuartoColor" Color="#FFA1FF48"/>
+    <SolidColorBrush x:Key="PrimerColor" Color="GreenYellow"/>
+    <SolidColorBrush x:Key="SegundoColor" Color="Green"/>
+    <SolidColorBrush x:Key="TercerColor" Color="ForestGreen"/>
+    <SolidColorBrush x:Key="CuartoColor" Color="DarkSeaGreen"/>
     <SolidColorBrush x:Key="QuintoColor" Color="#FF48FF64"/>
     <SolidColorBrush x:Key="SextoColor" Color="#FF48FFAF"/>
     <SolidColorBrush x:Key="SeptimoColor" Color="#FF488EFF"/>
-    <SolidColorBrush x:Key="OctavoColor" Color="#FF7748FF"/>
-    <SolidColorBrush x:Key="NovenoColor" Color="#FFED48FF"/>
-    <SolidColorBrush x:Key="DecimoColor" Color="#FFF5F5F5"/>
-
-    <Style TargetType="MenuItem">
-        <Setter Property="BorderBrush" Value="Black"/>
-        <Setter Property="BorderThickness" Value="1"/>
-    </Style>
-
-    <!--<Style x:Key="1" >
-        <Setter Property="Control.Background" Value="{StaticResource PrimerColor}"/>
-
-    </Style>
-
-    <Style x:Name="2">
-        <Setter Property="Control.Background" Value="{StaticResource SegundoColor}"/>
-    </Style>
-
-    <Style x:Name="3">
-        <Setter Property="Control.Background" Value="{StaticResource TercerColor}"/>
-    </Style>
-
-    <Style x:Name="4">
-        <Setter Property="Control.Background" Value="{StaticResource CuartoColor}"/>
-    </Style>
-
-    <Style x:Name="5">
-        <Setter Property="Control.Background" Value="{StaticResource QuintoColor}"/>
-    </Style>
-
-    <Style x:Name="6">
-        <Setter Property="Control.Background" Value="{StaticResource SextoColor}"/>
-    </Style>
-
-    <Style x:Name="7">
-        <Setter Property="Control.Background" Value="{StaticResource SeptimoColor}"/>
-    </Style>
-
-    <Style x:Name="8">
-        <Setter Property="Control.Background" Value="{StaticResource OctavoColor}"/>
-    </Style>-->
+    <SolidColorBrush x:Key="OctavoColor" Color="LawnGreen"/>
+    <SolidColorBrush x:Key="NovenoColor" Color="#FF1976D2"/>
+    <SolidColorBrush x:Key="DecimoColor" Color="White"/>
 
 </ResourceDictionary>
 
