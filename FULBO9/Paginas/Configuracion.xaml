@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:FULBO9.Paginas"
         mc:Ignorable="d"
         Title="Configuracion" Height="450" Width="800">
-    <Grid>
-        <TextBlock Margin="10,36,83,389">Configuracion</TextBlock>
+    <Grid Background="{StaticResource BackgroundMediumBrush}">
+        <TextBlock Text="Configuración del Sistema"
+                   FontSize="26"
+                   FontWeight="Bold"
+                   Foreground="{StaticResource PrimaryDarkBrush}"
+                   Margin="0 0 0 20"/>
     </Grid>
 </Page>

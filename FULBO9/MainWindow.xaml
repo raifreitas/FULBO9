@@ -8,6 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Menú -->
+            <RowDefinition Height="*"/>
+            <!-- Contenido de paginas -->
+        </Grid.RowDefinitions>
+
         <Menu>
             <MenuItem Header="Tabla Posiciones" Click="AbrirTablaPosiciones"></MenuItem>
             <MenuItem Header="Goles" Click="AbrirGoles"></MenuItem>
