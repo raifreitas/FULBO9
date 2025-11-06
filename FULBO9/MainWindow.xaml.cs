@@ -21,6 +21,8 @@ namespace FULBO9
         public MainWindow()
         {
             InitializeComponent();
+
+            
         }
 
         private void AbrirEquipos(object sender, RoutedEventArgs e)

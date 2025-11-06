@@ -1,4 +1,4 @@
-﻿<Window x:Class="FULBO9.MainWindow"
+<Window x:Class="FULBO9.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,17 +6,32 @@
         xmlns:local="clr-namespace:FULBO9"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-      
+   
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Menú -->
+            <RowDefinition Height="*"/>
+            <!-- Contenido de paginas -->
+        </Grid.RowDefinitions>
+
         <Menu>
-            <MenuItem Header="Tabla Posiciones" Click="AbrirTablaPosiciones"></MenuItem>
-            <MenuItem Header="Goles" Click="AbrirGoles"></MenuItem>
-            <MenuItem Header="Resultados" Click="AbrirResultados"></MenuItem>
-            <MenuItem Header="Calendario" Click="AbrirCalendario"></MenuItem>
-            <MenuItem Header="Grupos" Click="AbrirGrupos"></MenuItem>
-            <MenuItem Header="Jugadores" Click="AbrirJugadores"></MenuItem>
-            <MenuItem Header="Equipos" Click="AbrirEquipos"></MenuItem>
-            <MenuItem Header="Configuracion" Click="AbrirConfiguracion"></MenuItem>
+            <MenuItem x:Name="tablaPosiciones" Header="Tabla Posiciones" Click="AbrirTablaPosiciones"
+                      Background="{StaticResource PrimerColor}"/>
+            <MenuItem x:Name="tablaGoles" Header="Goles" Click="AbrirGoles"
+                      Background="{StaticResource SegundoColor}"/>
+            <MenuItem x:Name="tablaResultados" Header="Resultados" Click="AbrirResultados"
+                      Background="{StaticResource TercerColor}"/>
+            <MenuItem x:Name="tablaCalendario" Header="Calendario" Click="AbrirCalendario"
+                      Background="{StaticResource CuartoColor}"/>
+            <MenuItem x:Name="tablaGrupos" Header="Grupos" Click="AbrirGrupos"
+                      Background="{StaticResource QuintoColor}"/>
+            <MenuItem x:Name="tableJugadores" Header="Jugadores" Click="AbrirJugadores"
+                      Background="{StaticResource SextoColor}"/>
+            <MenuItem x:Name="tablaEquipos" Header="Equipos" Click="AbrirEquipos"
+                      Background="{StaticResource SeptimoColor}"/>
+            <MenuItem x:Name="tablaConfiguracion" Header="Configuracion" Click="AbrirConfiguracion"
+                      Background="{StaticResource OctavoColor}"/>
         </Menu>
         <!-- Frame: aquí se cargan las páginas -->
         <Frame x:Name="FramePrincipal"
