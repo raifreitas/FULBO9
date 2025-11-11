@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FULBO9.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,20 @@ namespace FULBO9.Paginas
     /// </summary>
     public partial class Configuracion : Page
     {
+        /**
+     * Esta es la "Vista" (la parte C#).
+     * Su única responsabilidad es inicializar y 
+     * conectar el ViewModel.
+     */
         public Configuracion()
         {
             InitializeComponent();
+
+            // --- ¡LA CONEXIÓN CLAVE! ---
+            // Le dice a esta Vista (Configuracion.xaml) que su
+            // "cerebro" (DataContext) es una nueva instancia de 
+            // nuestro ConfiguracionViewModel.
+            this.DataContext = new ConfiguracionViewModel();
         }
     }
 }
