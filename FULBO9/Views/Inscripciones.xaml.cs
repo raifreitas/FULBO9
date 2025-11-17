@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace FULBO9.Views
 {
     /// <summary>
-    /// Lógica de interacción para Resultados.xaml
+    /// Lógica de interacción para Inscripciones.xaml
     /// </summary>
-    public partial class Resultados : Page
+    public partial class Inscripciones : Page
     {
-        public Resultados()
+        public Inscripciones()
         {
             InitializeComponent();
         }

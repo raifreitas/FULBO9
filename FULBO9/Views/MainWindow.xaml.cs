@@ -8,7 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using FULBO9.Paginas;
+using FULBO9.Views;
 
 
 namespace FULBO9
@@ -63,6 +63,11 @@ namespace FULBO9
         private void AbrirGrupos(object sender, RoutedEventArgs e)
         {
             FramePrincipal.Navigate (new Grupos());
+        }
+
+        private void AbrirInscripciones(object sender, RoutedEventArgs e)
+        {
+            FramePrincipal.Navigate(new Inscripciones());
         }
     }
 }

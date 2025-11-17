@@ -13,7 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace FULBO9.Paginas
+namespace FULBO9.Views
 {
     /// <summary>
     /// Lógica de interacción para Configuracion.xaml

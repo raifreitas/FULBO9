@@ -16,22 +16,24 @@
         </Grid.RowDefinitions>
 
         <Menu>
-            <MenuItem x:Name="tablaPosiciones" Header="Tabla Posiciones" Click="AbrirTablaPosiciones"
-                      Background="{StaticResource PrimerColor}"/>
-            <MenuItem x:Name="tablaGoles" Header="Goles" Click="AbrirGoles"
-                      Background="{StaticResource SegundoColor}"/>
-            <MenuItem x:Name="tablaResultados" Header="Resultados" Click="AbrirResultados"
-                      Background="{StaticResource TercerColor}"/>
-            <MenuItem x:Name="tablaCalendario" Header="Calendario" Click="AbrirCalendario"
-                      Background="{StaticResource CuartoColor}"/>
+            <MenuItem x:Name="tablaConfiguracion" Header="Configuracion" Click="AbrirConfiguracion"
+                      Background="{StaticResource OctavoColor}"/>
+            <MenuItem x:Name="tablaInscripciones" Header="Inscripciones" Click="AbrirInscripciones"
+                      Background="{StaticResource OctavoColor}"/>
+            <MenuItem x:Name="tablaEquipos" Header="Equipos" Click="AbrirEquipos"
+                      Background="{StaticResource SeptimoColor}"/>
             <MenuItem x:Name="tablaGrupos" Header="Grupos" Click="AbrirGrupos"
                       Background="{StaticResource QuintoColor}"/>
             <MenuItem x:Name="tableJugadores" Header="Jugadores" Click="AbrirJugadores"
                       Background="{StaticResource SextoColor}"/>
-            <MenuItem x:Name="tablaEquipos" Header="Equipos" Click="AbrirEquipos"
-                      Background="{StaticResource SeptimoColor}"/>
-            <MenuItem x:Name="tablaConfiguracion" Header="Configuracion" Click="AbrirConfiguracion"
-                      Background="{StaticResource OctavoColor}"/>
+            <MenuItem x:Name="tablaCalendario" Header="Calendario" Click="AbrirCalendario"
+                      Background="{StaticResource CuartoColor}"/>
+            <MenuItem x:Name="tablaResultados" Header="Resultados" Click="AbrirResultados"
+                      Background="{StaticResource TercerColor}"/>
+            <MenuItem x:Name="tablaGoles" Header="Goles" Click="AbrirGoles"
+                      Background="{StaticResource SegundoColor}"/>
+            <MenuItem x:Name="tablaPosiciones" Header="Tabla Posiciones" Click="AbrirTablaPosiciones"
+                      Background="{StaticResource PrimerColor}"/>
         </Menu>
         <!-- Frame: aquí se cargan las páginas -->
         <Frame x:Name="FramePrincipal"
